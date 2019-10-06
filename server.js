@@ -1,7 +1,14 @@
 const express = require("express");
 const app = express();
+const connectDB = require("./config/db");
 
 app.get("/", (req, res) => res.json({ msg: "welcome to my life" }));
+
+// connect DB
+connectDB();
+
+// init middleware
+app.use(express.json({ extended: false }));
 
 // define routes
 app.use("/api/users", require("./routes/users"));

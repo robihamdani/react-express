@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://robi123:robi123@expressreact-nk1hj.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
