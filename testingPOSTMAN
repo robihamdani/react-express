@@ -10,7 +10,9 @@
 			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
 			"order": [
 				"5ea01446-46fd-c4c4-d9b8-6c32841865cd",
-				"d34e2869-6ba2-0200-0d42-7ac3c24dda15"
+				"d34e2869-6ba2-0200-0d42-7ac3c24dda15",
+				"22142b7c-c397-8505-0982-3959e667507e",
+				"51e76cd6-91eb-99e7-a94b-ddcdd476b5f0"
 			],
 			"owner": 0,
 			"folders_order": [],
@@ -68,6 +70,82 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"folder": "888a899a-111c-6c55-573b-285f68f706ba",
+			"rawModeData": ""
+		},
+		{
+			"id": "22142b7c-c397-8505-0982-3959e667507e",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "JSON Content",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/contacts/5d9aa1ad8adfe820b02f29dc",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Update Contact",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570416511987,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2f2a352e-14cc-48d3-9bd1-b511890979cc",
+			"rawModeData": "{\n\t\"name\" : \"Jujun\"\n}"
+		},
+		{
+			"id": "51e76cd6-91eb-99e7-a94b-ddcdd476b5f0",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "JSON Content",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/contacts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"data": [],
+			"dataMode": "raw",
+			"name": "delete a contact",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570416738660,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2f2a352e-14cc-48d3-9bd1-b511890979cc",
 			"rawModeData": ""
 		},
 		{
