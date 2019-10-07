@@ -1,0 +1,199 @@
+{
+	"id": "51943bc1-5310-fe58-0cd4-97b387f02478",
+	"name": "PJD - USER",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Contacts",
+			"description": "",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"order": [
+				"5ea01446-46fd-c4c4-d9b8-6c32841865cd",
+				"d34e2869-6ba2-0200-0d42-7ac3c24dda15"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "2f2a352e-14cc-48d3-9bd1-b511890979cc"
+		},
+		{
+			"name": "user and auth",
+			"description": "",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"order": [
+				"6f838829-8c73-aae1-5d1e-2241282179c8",
+				"7ed82156-c896-c48b-daa1-8a7cfc9bd97b",
+				"0ea2dc03-7a5f-d077-0eaa-0b1a35fd0a29"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "888a899a-111c-6c55-573b-285f68f706ba"
+		}
+	],
+	"folders_order": [
+		"888a899a-111c-6c55-573b-285f68f706ba",
+		"2f2a352e-14cc-48d3-9bd1-b511890979cc"
+	],
+	"timestamp": 1567655226401,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0ea2dc03-7a5f-d077-0eaa-0b1a35fd0a29",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YTcwYmViOThlOTMwNjg4Y2MwYzExIn0sImlhdCI6MTU3MDQwNjcxMSwiZXhwIjoxNTcwNDQyNzExfQ.CJGYLiKZROnYFDf-A1MnpZfHIYw1lv-xAi458f2a1Lg\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YTcwYmViOThlOTMwNjg4Y2MwYzExIn0sImlhdCI6MTU3MDQwNjcxMSwiZXhwIjoxNTcwNDQyNzExfQ.CJGYLiKZROnYFDf-A1MnpZfHIYw1lv-xAi458f2a1Lg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/auth",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"data": [],
+			"dataMode": "raw",
+			"name": "GET logged user",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570409606942,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "888a899a-111c-6c55-573b-285f68f706ba",
+			"rawModeData": ""
+		},
+		{
+			"id": "5ea01446-46fd-c4c4-d9b8-6c32841865cd",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/contacts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570415032886,
+			"name": "get all user contacts",
+			"description": "",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"responses": []
+		},
+		{
+			"id": "6f838829-8c73-aae1-5d1e-2241282179c8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/users",
+			"folder": "888a899a-111c-6c55-573b-285f68f706ba",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570415036102,
+			"name": "Register User",
+			"description": "",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"responses": [],
+			"rawModeData": "{\n\"name\": \"Jaenudin\",\n\"email\": \"jae@gmail.com\",\n\"password\": \"1234567\"\n}\n"
+		},
+		{
+			"id": "7ed82156-c896-c48b-daa1-8a7cfc9bd97b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/auth",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login get JWT",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1570408992292,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "888a899a-111c-6c55-573b-285f68f706ba",
+			"rawModeData": "{\n\t\"email\": \"testing@gmail.com\",\n\t\"password\": \"1234567\"\n}"
+		},
+		{
+			"id": "d34e2869-6ba2-0200-0d42-7ac3c24dda15",
+			"headers": "x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWQ5YWExMjk4YWRmZTgyMGIwMmYyOWQ5In0sImlhdCI6MTU3MDQxNDg4OSwiZXhwIjoxNTcwNDUwODg5fQ.ZekwyozldCAjAHtBq_2c8hGCcnWDjHo_jAiNxJs4WIk",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "JSON Content",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5000/api/contacts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570415034727,
+			"name": "add a contacts",
+			"description": "",
+			"collectionId": "51943bc1-5310-fe58-0cd4-97b387f02478",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"dani\",\n\t\"email\": \"dani@gmail.com\",\n\t\"phone\": \"089898987\",\n\t\"type\": \"profesional\"\n}"
+		}
+	]
+}
