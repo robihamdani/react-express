@@ -14,7 +14,6 @@ import {
   LOGOUT,
   CLEAR_ERRORS
 } from "../types";
-import { readSync } from "fs";
 
 const AuthState = props => {
   const initialState = {
@@ -96,7 +95,7 @@ const AuthState = props => {
   };
 
   // Logout
-  const logout = () => console.log("login");
+  const logout = () => dispatch({ type: LOGOUT });
 
   // Clear Errors
   const clearError = () => dispatch({ type: CLEAR_ERRORS });
