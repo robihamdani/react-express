@@ -7,10 +7,17 @@ import Login from "./components/auth/Login";
 import Alert from "./components/layout/Alert";
 
 import Navbar from "./components/layout/Navbar";
-import "./App.css";
+
 import ContactState from "./context/contact/ContactState";
 import AuthState from "./context/auth/AuthState";
 import AlertState from "./context/alert/AlertState";
+
+import setAuthToken from "./utils/setAuthToken";
+import "./App.css";
+
+if (localStorage.token) {
+  setAuthToken(localStorage.token);
+}
 
 const App = () => {
   return (
