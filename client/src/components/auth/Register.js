@@ -7,7 +7,7 @@ const Register = props => {
   const authContext = useContext(AuthContext);
 
   const { setAlert } = alertContext;
-  const { register, error, clearErrors, isAuthenticated } = authContext;
+  const { register, error, clearError, isAuthenticated } = authContext;
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -16,7 +16,7 @@ const Register = props => {
 
     if (error === "User already exists") {
       setAlert(error, "danger");
-      clearErrors();
+      clearError();
     }
     // eslint-disable-next-line
   }, [error, isAuthenticated, props.history]);
